@@ -1,0 +1,5 @@
+# DARK-JWT-INSPECTOR v1.0.0
+# The core tool (decode, analyse, HS256/HS384/HS512, reports) uses ONLY the Python standard library.
+# The package below is OPTIONAL: it enables RSA / RSA-PSS / ECDSA signature verification.
+# On Termux prefer:  pkg install python-cryptography   (pip must compile it there)
+cryptography>=3.4
